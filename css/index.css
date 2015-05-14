@@ -1,3 +1,11 @@
-header{
-    background-color: red;
+.bigbutton {
+    height: 100px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.bigbuttonMultiLine {
+    height: 100px;
+    line-height: 30px;
+    font-size: 18px;
 }

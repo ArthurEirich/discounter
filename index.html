@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
-    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-</head>
-<body>
-<div data-role="page" id="main-page">
-    <div data-role="header" align="center" class="title">Discounter Preisvergleich</div>
-    <div data-role="content">
-        <table align="center">
-            <tr>
-                <td>
-                    <a href="" data-role="button" id="discountersuche">Discounter-Suche</a>
-                </td>
-                <td>
-                    <a href="" data-role="button" id="markensuche">Markensuche</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="" data-role="button" id="einkaufsliste">Einkaufsliste</a>
-                </td>
-                <td>
-                    <a href="" data-role="button" id="favoriten">Gespeicherte Listen</a>
-                </td>
-            </tr>
-            <tr>
-            </tr>
-        </table>
-    </div>
-</div>
-</body>
+    <head>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="css/index.css"/>
+    </head>
+    <body>
+        <div data-role="page" id="main-page">
+            <div data-role="header" align="center">Discounter Preisvergleich</div>
+            <div data-role="content">
+                <fieldset class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="" data-role="button" class="bigbuttonMultiLine">Discounter <br/> Suche</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="" data-role="button" class="bigbutton" data-theme="c">Markensuche</a>
+                    </div>
+                </fieldset>
+                <fieldset class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="" data-role="button" class="bigbutton" data-theme="c">Einkaufsliste</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="" data-role="button" class="bigbuttonMultiLine" data-theme="c">Gespeicherte <br/> Listen</a>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </body>
 </html>
